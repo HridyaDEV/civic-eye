@@ -110,12 +110,12 @@ function ComplaintDetails() {
                                 className="w-full mt-2 rounded-lg"
                                 style={{ maxHeight: "400px" }}
                             >
-                                <source src={`http://localhost:5111${complaint.proof}`} type="video/mp4" />
+                                <source src={`https://civic-eye.onrender.com${complaint.proof}`} type="video/mp4" />
                                 Your browser does not support the video tag.
                             </video>
                         ) : (
                             <img
-                                src={`http://localhost:5111${complaint.proof}`}
+                                src={`https://civic-eye.onrender.com${complaint.proof}`}
                                 alt="Complaint Proof"
                                 className="w-full mt-2 rounded-lg"
                                 onError={(e) => {
