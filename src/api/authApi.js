@@ -1,6 +1,7 @@
 import axios from "axios"
 
-const url = 'http://localhost:5111'
+// const url = 'http://localhost:5111'
+const url = "https://civic-eye.onrender.com";
 
 export const register = async (data) => {
     try {
